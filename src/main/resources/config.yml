@@ -1,0 +1,17 @@
+campfire:
+
+  require-end-dimension: true
+
+  particles: true
+
+  sounds: true
+
+explosion-protection:
+
+  end-crystals: true
+
+  respawn-anchors: true
+
+messages:
+
+  prefix: "&5[EndSpawn]&r "
