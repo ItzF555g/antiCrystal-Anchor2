@@ -34,6 +34,9 @@ public class EndCampfireRespawn extends JavaPlugin {
         getServer().getPluginManager().registerEvents(
                 new ExplosionListener(), this);
 
+        getServer().getPluginManager().registerEvents(
+                new PlayerRespawnListener(), this);
+
         getLogger().info("EndCampfireRespawn Enabled");
 
     }
