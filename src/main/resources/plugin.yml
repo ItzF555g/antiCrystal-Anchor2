@@ -1,0 +1,26 @@
+name: EndCampfireRespawn
+
+version: 1.0.0
+
+main: me.georg.endcampfirerespawn.EndCampfireRespawn
+
+api-version: '1.21'
+
+author: Georg
+
+description: Campfire Respawn System for The End
+
+commands:
+
+  endspawn:
+    description: Main plugin command
+    usage: /endspawn
+    permission: endspawn.admin
+
+permissions:
+
+  endspawn.use:
+    default: true
+
+  endspawn.admin:
+    default: op
