@@ -7,6 +7,10 @@
     <groupId>me.georg</groupId>
     <artifactId>EndCampfireRespawn</artifactId>
     <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <name>EndCampfireRespawn</name>
+    <description>End campfire respawn plugin for Paper 1.21.11</description>
 
     <properties>
         <java.version>21</java.version>
@@ -33,16 +37,24 @@
 
     <build>
 
+        <finalName>EndCampfireRespawn</finalName>
+
         <plugins>
 
             <plugin>
+
                 <groupId>org.apache.maven.plugins</groupId>
+
                 <artifactId>maven-compiler-plugin</artifactId>
 
-                <version>3.13.0</version>
+                <version>3.14.0</version>
 
                 <configuration>
+
                     <release>21</release>
+
+                    <showWarnings>true</showWarnings>
+
                 </configuration>
 
             </plugin>
